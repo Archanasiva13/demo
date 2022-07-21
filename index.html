@@ -4,26 +4,99 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My first web page</title>
+    <title>My first webpage</title>
+    //inline css - tag selector
     <style>
-    div{
-        background-color: green;
-        display: inline;
-    }
-    span{
-        background-color:orange;
-        /* display: block; */
-    }
-  
+        table,th,td{
+            border:1px solid blue;
+            border-collapse:collapse;
+        }
     </style>
-
 </head>
 <body>
-<!-- <div>this is div</div>
-<div style="background-color: orange;">this is div</div>
-<div>this is div</div> -->
+    <p> this is p</p>
+    <h1>this s h1</h1>
+    <div>Guvi geek network</div>
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi error doloremque ipsum minima rem ratione cum sed blanditiis in, vitae neque ipsam facere at atque ab nobis, aspernatur veniam velit?</div>
+    <a href="https://www.google.com"target="_blank" >click me</a>
+    <table>
+        <thead>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Mobile</th></thead>
+        
+        <tbody>
+            <tr>
+                <td>John</td>
+                <td>23</td>
+                <td>9773835298</td>
+            </tr>
+            <tr>
+                <td>Joe</td>
+                <td>24</td>
+                <td>6538979057</td>
+            </tr>
+            <tr>
+                <td>Archu</td>
+                <td>29</td>
+                <td>7885366688</td>
+            </tr>
+        </tbody>
+    </table>
+<form>
+<label for="email">EMAIL</label><br>
+<input type="email"name="" id="email"></input><br>
+<label for="pass">PASSWORD</label><br>
+<input type="password"name="" id="pass"></input><br>
+</form>
 
-<span>this is span</span>
-<span style="display: block;">this is span</span>
+<form>    
+        <label for="firstname">firstname</label><br>
+        <input type="text" name="" id="firstname"></input><br>
+        <label for="middlename">middlename</label><br>
+        <input type="text" name="" id="middlename"></input><br>
+        <label for="lastname">Lastname</label><br>
+        <input type="text"name="" id="lastname"></input><br>
+        <label for="email">EMAIL</label><br>
+        <input type="email" id="email"></input><br>
+        <label for="upload">Upload a file</label><br>
+        <input type="file"id="upload"></input><br>
+
+</form>
+
+<form>
+    
+        <th>Contact form</th><br>
+
+    
+
+<input type="text"name=""id="firstname"placeholder="firstname"></input>
+
+<input type="text"name=""id="lastname"placeholder="lastname"></input><br>
+
+<input type="email"name=""id="email"placeholder="abc@gmail.com"></input><br>
+<label for="preferred method of contact">preferred method of contact</label>
+
+<select name="" id="preferred method of contact">
+    
+       <option value="mobile">Mobile</option>
+      <option value="email">email</option>     </select>
+      <br>
+
+
+<input type="text"name=""id="message"placeholder="write here"></input><br>
+
+<input type="submit"name=""id="submit"placeholder="submit"></input><br>
+
+</form>
+
+
+</thead>
+
+</form>
+
+
+
 </body>
 </html>
+
